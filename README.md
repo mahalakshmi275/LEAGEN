@@ -26,10 +26,37 @@ Scalable modular design for future integration with dynamic legal databases.
 LangChain, FAISS, HuggingFace Embeddings, Gemini API, Gradio, PyMuPDF, RecursiveCharacterTextSplitter, gTTS, Python, dotenv.
 
 # Project Structure
-├── legal_doc_summ.py         # Main backend logic for summarization, RAG setup, translation, audio generation
-├── LEGALGEN.pdf              # Project documentation (report)
-├── output_files/             # Generated PDFs and audio files
-├── faiss_index/              # Local vector database (semantic index)
-├── .env                      # Environment variables (API keys)
-├── README.md                 # Project overview
+
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/78493005-5def-4f0b-827d-ad52b697b6f7" />
+
+# Installation and Setup
+
+# Clone the repository
+git clone https://github.com/your-username/legalgen.git
+cd legalgen
+
+# Install required packages
+pip install -r requirements.txt
+
+# Set up environment variables Create a .env file:
+
+GOOGLE_API_KEY=your_gemini_api_key
+
+# Run the application
+
+python legal_doc_summ.py
+
+Access Gradio UI The Gradio interface will open automatically for uploading legal documents and querying.
+
+# Future Work
+Fine-tuning legal domain-specific LLMs for better summarization.
+
+Real-time integration with legal databases (e.g., IPC, GST laws).
+
+Enhanced multilingual support for more regional languages.
+
+Blockchain integration for tamper-proof legal document handling.
+
+# Acknowledgments
+This project was developed as part of an academic research initiative at VIT Vellore, focusing on applying Agentic AI and Generative AI techniques to the legal industry.
 
