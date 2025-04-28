@@ -20,3 +20,16 @@ Semantic search using HuggingFace Embeddings (all-MiniLM-L6-v2) and FAISS vector
 Auto-generated summaries and audio files (text-to-speech) for accessibility.
 
 Scalable modular design for future integration with dynamic legal databases.
+
+# Tools and Technologies Used
+
+LangChain, FAISS, HuggingFace Embeddings, Gemini API, Gradio, PyMuPDF, RecursiveCharacterTextSplitter, gTTS, Python, dotenv.
+
+# Project Structure
+├── legal_doc_summ.py         # Main backend logic for summarization, RAG setup, translation, audio generation
+├── LEGALGEN.pdf              # Project documentation (report)
+├── output_files/             # Generated PDFs and audio files
+├── faiss_index/              # Local vector database (semantic index)
+├── .env                      # Environment variables (API keys)
+├── README.md                 # Project overview
+
