@@ -33,6 +33,7 @@ LangChain, FAISS, HuggingFace Embeddings, Gemini API, Gradio, PyMuPDF, Recursive
 
 # Clone the repository
 git clone https://github.com/your-username/legalgen.git
+
 cd legalgen
 
 # Install required packages
